@@ -62,8 +62,8 @@ public class BankAccount {
     public static void main(String[] args) {
         //объект BankAccount
         BankAccount account = new BankAccount(
-                "Иван",
-                25,
+                "Мишка",
+                21,
                 LocalDateTime.now(),
                 true
         );
@@ -76,7 +76,7 @@ public class BankAccount {
         //метод депозита
         System.out.println("\n--- Операции по счёту пополнения ---");
         account.showBalance();
-        account.deposit(1000);
+        account.deposit(2000);
         System.out.println(account.OpenClose);
         //Метод Списания
         System.out.println("\n--- Операции по счёту списания ---");
